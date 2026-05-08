@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student registration form</h1>
+    <fieldset>
+        <legend>persional Information</legend>
+        <label for="name">Name</label><br>
+        <input  id="name" type="text"><br><br>
+
+        <label for="Email">Email</Em></label><br>
+        <input  id="Email" type="text"><br><br>
+
+        <label for="Mobile">Mobile</label><br>
+        <input  id="Mobile" type="text"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Address Details</legend>
+        <label for="Address">Address line 1</label>
+        <textarea id="Address" rows="3"></textarea><br><br>
+
+        <label for="City">City</label><br>
+        <select id="City"><br><br>
+            <optgroup>
+                <option selected disabled>select your city</option>
+                <option>Bhopal</option>
+                <option>mumbai</option>
+                <option>bengalur</option>
+                <option>bihar</option>
+            </optgroup>
+        </select> <br><br>
+
+        <label for="Country">Country</label><br>
+        <select id="Country">
+            <optgroup>
+                <option selected disabled>select your Country</option>
+                <option>India</option>
+                <option>Russia</option>
+                <option>China</option>
+                <option>America</option>
+            </optgroup>
+        </select>
+    </fieldset>
+    <br><br>
+    <label for="course">Select your course:</label>
+    <select id="course">
+        <optgroup label="fronted">
+            <option>Html</option>
+            <option>Css</option>
+            <option>Js</option>
+            </optgroup>
+
+        <optgroup label="Backend">
+            <option>node.js</option>
+            <option>mongo db</option>
+            <option>Express</option>
+            </optgroup>
+    </select><br><br>
+    <button type="button">Submit</button>
+</body>
+</html>
