@@ -1,0 +1,131 @@
+* {
+ margin: 0%;
+ padding: 0%;
+box-sizing: border-box;
+}
+html,body {
+ width: 100%;
+ height: 100%;
+ background: #000;
+ color: white;
+ font-family: sans-serif;
+}
+nav{
+    height: 100px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+
+   
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.logo p{
+    font-size: larger;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+
+}
+.navbtn{
+    padding: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    background: rgb(17, 17, 17);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+main .mainText{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 170px;
+    font-weight: 700;
+    
+
+}
+.mainBtn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
+}
+.mainBtn button{
+    background:rgb(17, 17, 17);
+    color: white;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 50px;
+    border: none;
+    font-size: xx-large;
+}
+.threeBox{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 650px;
+    margin-bottom: 40px;
+    gap: 20px;
+
+}
+.box{
+    width: 33.5%;
+    background: rgb(14, 14, 14);
+    height: 700px;
+    border-radius: 40px;
+    
+}
+.box .upper{
+
+    height: 60%;
+
+}
+.box .lower{
+    height: 40%;
+    padding: 40px;
+    
+}
+.upper img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.lower button{
+    background: rgb(90, 32, 10);
+    color: white;
+    border: none;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.lower p{
+    padding-top: 40px;
+    font-size: xx-large;
+}
+.lower h5{
+    padding-top: 30px;
+    color: gray;
+}
+
