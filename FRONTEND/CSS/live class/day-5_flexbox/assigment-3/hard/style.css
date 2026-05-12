@@ -200,9 +200,11 @@ width: 100px;
 color: rgb(21, 183, 157);
 font-size: 30px;
 font-weight: bolder;
+margin-left: 30%;
+
 }
 .heading .secp{
-    width: 300px;
+width: 300px;
 font-size: 40px;
 font-weight: bolder;
 }
@@ -336,6 +338,9 @@ font-weight: bolder;
     color: gray;
 }
 .readytocreate{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
     height: 240px;
     margin-right: 3%;
@@ -358,6 +363,56 @@ font-weight: bolder;
 .readytocreate .part2 img{
     height: 80px;
 
+
+}
+.part2 p{
+    color: gray;
+}
+.icon4{
+   margin-top: 40px;
+   
+    
+}
+.icon4 i{
+    font-size: 20px;
+    border: 1px solid rgb(21, 183, 157);
+    border-radius: 50px;
+    padding: 12px;
+    margin-left: 20px;
+}
+.icon4 .tel{
+color: rgb(21, 183, 157);
+}
+
+.part3{
+    color: gray;
+}
+.part3 h2{
+    margin-bottom: 15px;
+}
+.part3 i{
+    font-size: 20px;
+}
+.part3 .mail{
+    margin-bottom: 20px;
+}
+.part3 .Contact{
+    margin-bottom: 20px;
+}
+.part3 .location{
+    margin-bottom: 20px;
+}
+.final{
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 20px;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.Privacy{
+    margin-right: 40px;
 }
 
 
