@@ -94,16 +94,51 @@
 // console.log(n);
 
 // Q-25 Check if the number is prime or not
-    let prompt = require("prompt-sync")()
-let n = Number(prompt("Enter the value of n "))
-if(n<=0) console.log("not a prime number");
+//     let prompt = require("prompt-sync")()
+// let n = Number(prompt("Enter the value of n "))
+// if(n<=0) console.log("not a prime number");
 
-    count = 0
-for(let i = 2; i<=n/2; i++){
-    if(n%i == 0) count ++
+//     count = 0
+// for(let i = 2; i<=n/2; i++){
+//     if(n%i == 0) count ++
+// }
+// if(count == 0) console.log("prime number");
+// else console.log("not prime number");
+
+
+let prompt = require("prompt-sync")()
+let a = Number(prompt("Enter your first number"))
+let b = Number(prompt("Enter your second number"))
+
+let evenSum = 0, oddSum = 0
+if(a>b){
+let temp = a
+    a = b
+    b = temp
 }
-if(count == 0) console.log("prime number");
-else console.log("not prime number");
+for(let i = a; i <= b; i++){
+    if(i%2==0) evenSum += i
+    else oddSum +=i
+}
+console.log( "even sum is " + evenSum);
+console.log("odd sum is " + oddSum);
+
+
+// let prompt = require("prompt-sync")()
+// let a = Number(prompt("Enter the value of a "))
+// let b = Number(prompt("Enter the value of b "))
+// let evenSum = 0, oddSum = 0
+// if(a>b){
+// [a,b] = [b,a]
+// }
+// for(let i = a; i<=b; i++){
+//     if(i%2 ==0) evenSum += i
+//     else oddSum += i
+// }
+// console.log(evenSum);
+// console.log(oddSum);
+
+
 
 
 

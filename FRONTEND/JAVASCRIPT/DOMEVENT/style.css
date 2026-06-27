@@ -1,0 +1,87 @@
+* {
+ margin: 0%;
+ padding: 0%;
+box-sizing: border-box;
+}
+html,body {
+ width: 100%;
+ height: 100%;
+ background: #000;
+ color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    height: 250px;
+    width: 400px;
+    margin: 20px 30px;
+    padding: 10px 15px;
+    gap: 20px;
+    border-radius: 10px;
+}
+form .Name, .gmail,.image, button{
+height: 40px;
+border: none;
+border-radius: 10px;
+padding: 15px;
+}
+button{
+    background-color: rgb(50, 85, 125);
+    color: white;
+}
+.card{
+    margin-left: 20px;
+    display: flex;
+    gap: 2px;
+    flex-wrap: wrap;
+    justify-content: start;
+
+}
+
+.users{
+    margin: 20px 10px;
+    /* height:300px; */
+    width: 300px;
+    border-radius: 10px; 
+    border: 2px solid white;
+    object-fit: cover;
+    
+
+}
+
+.user_card{
+
+    height: 70%;
+    width: 100%;
+    /* border: 1px solid white; */
+    padding: 10px;
+}
+.user_card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.user_card .text{
+    color: white;
+    margin-top: 10px;
+}
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.action button{
+    padding: 5px 20px;
+}
+.action :nth-child(1){
+    background: darkorange;
+}
+.action :nth-child(2){
+    background: darkred;
+
+}
