@@ -9,12 +9,12 @@ export const useAuth = () => {
   let dispatch = useDispatch();
   let navigate = useNavigate();
   const [registeredUsers, setRegisteredUsers] = useState(
-    JSON.parse(localStorage.getItem("registeredUsers")) || []
+    JSON.parse(localStorage.getItem("registeredUsers")) || [],
   );
 
   let {
     register,
-    handleSubmit, 
+    handleSubmit,
     reset,
     formState: { errors },
   } = useForm();
