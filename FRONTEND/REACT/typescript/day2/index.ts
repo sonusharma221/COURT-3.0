@@ -59,6 +59,6 @@ let yolo:string | number = "rahul"
  yolo = 24
  console.log(yolo);
  
-
+console.log("room thand kardo ")
 
 
