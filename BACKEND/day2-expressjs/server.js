@@ -275,7 +275,7 @@ app.get('/products',(req,res)=>{
 app.post("/create",(req,res)=>{
 
 
-  console.log(req.body);
+  console.log(req.body)
     res.send("ok post")
     
 
